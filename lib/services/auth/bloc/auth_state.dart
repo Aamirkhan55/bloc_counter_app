@@ -28,3 +28,7 @@ class AuthStateNeedVarification extends AuthState {
 class AuthStateLoggedOut extends AuthState {
   const AuthStateLoggedOut();
 }
+
+class AuthStateLoggedOutFailure extends AuthState {
+  const AuthStateLoggedOutFailure();
+}
